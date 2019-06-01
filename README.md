@@ -1,10 +1,12 @@
 ## Forked from aront/radarr and adapted for SABnzbd
 A docker container based on linuxserver/sabnzbd with mp4 automation baked in
 
-## Usage
+## Modified from original
 * Removed GID / UID from original assuming 911 from linuxserver sonarr/radarr
 * Changed volumes and ports to reflect SABnzbd
 * Changed automator path
+
+## Usage
 
 ````
 docker create \
