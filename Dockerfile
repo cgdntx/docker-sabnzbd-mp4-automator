@@ -1,4 +1,4 @@
-FROM linuxserver/radarr
+FROM linuxserver/sabnzbd
 
 RUN \
   apt-get update && \
