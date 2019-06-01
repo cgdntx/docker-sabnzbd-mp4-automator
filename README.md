@@ -5,6 +5,7 @@ A docker container based on linuxserver/sabnzbd with sickbeard mp4 automator pre
 * Removed GID / UID from original assuming 911 from linuxserver sonarr/radarr
 * Changed volumes and ports to reflect SABnzbd
 * Changed automator path
+* Removed auto-download / symlinks for sickbeard mp4 automator in favor of manual load
 
 ### Usage
 
