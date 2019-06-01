@@ -15,7 +15,7 @@ docker create \
     -p 8080:8080 \
     -e TZ="America/Chicago"  \
     -v <path to data>:/config \
-    -v <path to data>:/mp4-automator \
+    -v <path to data>:/mp4_automator \
     -v <path to data>:/incomplete-downloads \
     -v <path to data>:/downloads \
     cgdntx/sabnzbd
