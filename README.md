@@ -25,6 +25,9 @@ docker create \
 See [https://hub.docker.com/r/linuxserver/sabnzbd/](https://hub.docker.com/r/linuxserver/sabnzbd/) for details.
 
 ### Configuration
-Download code from https://github.com/mdhiggins/sickbeard_mp4_automator to persistent mount directory for 'mp4_automator'.  Point scripts in SABnzbd general to /mp4_automator.  Configure according to https://github.com/mdhiggins/sickbeard_mp4_automator#sabnzbd-setup
+Download code from https://github.com/mdhiggins/sickbeard_mp4_automator to persistent mount directory for 'mp4_automator'.  
+Run 'chmod +x -R <mp4_automator persistent volume on host>'
+Point scripts in SABnzbd general to /mp4_automator.  
+Configure according to https://github.com/mdhiggins/sickbeard_mp4_automator#sabnzbd-setup
 
 
